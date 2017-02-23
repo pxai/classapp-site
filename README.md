@@ -1,7 +1,9 @@
-Ionic 2 App Base
+ClassApp, based on Ionic Base
 =====================
 
-This is the base template for Ionic 2 starter apps.
+ClassApp the base template for Ionic 2 starter apps.
+
+## Add platforms
 
 ## Using this project
 
@@ -17,4 +19,3 @@ Then run:
 $ ionic start myApp
 ```
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/docs/v2/getting-started/) page.
