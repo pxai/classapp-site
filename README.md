@@ -19,3 +19,8 @@ Then run:
 $ ionic start myApp
 ```
 
+# Installing Karma
+These are the packages we need so far
+``` 
+npm install --save-dev @types/jasmine @types/node angular-cli jasmine-core karma karma-chrome-launcher karma-cli karma-jasmine karma-mocha-reporter karma-remap-istanbul
+```
