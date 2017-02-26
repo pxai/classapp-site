@@ -1,6 +1,6 @@
 ClassApp, based on Ionic Base
 =====================
-
+[![Build Status](https://travis-ci.org/pxai/classapp.svg?branch=master)](https://travis-ci.org/pxai/classapp)
 ClassApp the base template for Ionic 2 starter apps.
 
 ## Add platforms

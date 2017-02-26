@@ -5,7 +5,7 @@ import { TeachPage }          from './teach';
 let fixture: ComponentFixture<TeachPage> = null;
 let instance: any = null;
 
-describe('Pages: HelloIonic', () => {
+describe('Pages: TeachPage', () => {
 
   beforeEach(async(() => TestUtils.beforeEachCompiler([TeachPage]).then(compiled => {
     fixture = compiled.fixture;
