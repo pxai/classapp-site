@@ -12,7 +12,7 @@ describe('Pages: HelloIonic', () => {
     instance = compiled.instance;
   })));
 
-  it('should load the teach page', async(() => {
+  it('should -at least- load the teach page', async(() => {
     expect(instance).toBeTruthy();
   }));
 });
