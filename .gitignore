@@ -1,3 +1,5 @@
 # e2e
 /e2e/*.js
 /e2e/*.map
+/node_modules
+/bower_components
