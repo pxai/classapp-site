@@ -9,7 +9,7 @@
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
     "test-coverage": "ng test --code-coverage",
-    "test": "ng test",
+    "test": "ng test  --single-run --watch=false",
     "test:watch": "karma start karma.watch.conf.js",
     "e2e": "ionic-app-scripts build && protractor",
     "postinstall": "webdriver-manager update"
