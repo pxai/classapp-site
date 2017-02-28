@@ -1,4 +1,4 @@
-import {Component, Injector} from '@angular/core';
+import {Component} from '@angular/core';
 
 import { HomePage } from '../home/home';
 import { AboutPage } from '../about/about';
