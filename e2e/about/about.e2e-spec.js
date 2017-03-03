@@ -4,8 +4,7 @@ describe('classap about page testing', function() {
   beforeEach(function() {
     browser.get('');
     element(by.xpath('//*[@id="tab-t0-1"]/ion-icon')).click();
-   /* browser.wait(EC.elementToBeClickable(link), 3000);
-    link.click();*/
+    browser.waitForAngular();
        });
 
   it('should have a header title for about', function() {

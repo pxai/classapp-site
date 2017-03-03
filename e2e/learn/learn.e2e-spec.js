@@ -4,6 +4,7 @@ describe('classap learn page testing', function() {
   beforeEach(function() {
     browser.get('');
     element(by.xpath('//*[@id="tab-t0-3"]/ion-icon')).click();
+    browser.waitForAngular();
        });
 
   it('should have a header title for learn', function() {
