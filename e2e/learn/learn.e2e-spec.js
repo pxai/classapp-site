@@ -20,4 +20,8 @@ describe('classap learn page testing', function() {
     expect(element(by.css('ion-tab[tabtitle="Learn"] ion-title div')).getText()).toEqual('Learn');
   });
 
+  it('should have a list with learn items', function() {
+    expect(element(by.css('ion-list')).isPresent()).toBeTruthy();
+  });
+
 });

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {ClassApp} from "../../../models/ClassApp";
 
 
 @Component({
@@ -7,10 +8,10 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'learn-detail.html'
 })
 export class LearnDetailPage {
-  item: any;
+  classApp: ClassApp;
 
   constructor(public navCtrl: NavController, navParams: NavParams) {
-    this.item = navParams.get('item'); // || items.defaultItem;
+    this.classApp = navParams.get('classApp'); // || items.defaultItem;
   }
 
 }

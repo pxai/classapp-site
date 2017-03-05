@@ -10,10 +10,13 @@ import 'zone.js/dist/async-test';
 import 'zone.js/dist/fake-async-test';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate/ng2-translate';
+import { TranslateService } from 'ng2-translate/ng2-translate';
 import { getTestBed, TestBed } from '@angular/core/testing';
 import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from '@angular/platform-browser-dynamic/testing';
 import { App, Config, Form, IonicModule, Keyboard, DomController, MenuController, GestureController, NavController, Platform } from 'ionic-angular';
 import { ConfigMock, PlatformMock } from './mocks';
+import {MyApp} from "./app/app.component";
 //import { ClickersServiceMock } from './services/clickers.mock';
 //import { ClickersService } from './services';
 
@@ -55,6 +58,7 @@ export class TestUtils {
     return TestBed.configureTestingModule({
       declarations: [
         ...components,
+        MyApp
       ],
       providers: [
         App, Form,  Keyboard, DomController, MenuController, NavController, GestureController,
