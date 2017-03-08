@@ -22,6 +22,7 @@ export class LearnPage {
   addClassApp(classApp: ClassApp) {
     this.classApps.push(classApp);
   }
+
   /**
    * Delete an item from the list of items.
    */
