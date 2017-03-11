@@ -15,5 +15,16 @@
     <h2>{{classApp.name}}</h2>
     <p>{{classApp.description}}</p>
     <p><i>{{classApp.notes}}</i></p>
+
+    <div class="learn-tip" *ngFor="let tip of classApp.tips; let i = index;">
+      <div class="tip-title">{{tip.title}}</div>
+
+    </div>
+    <p><i>{{classApp.image}}</i></p>
   </div>
+
+  <button ion-button >
+    Secondary (Round)
+  </button>
 </ion-content>
+

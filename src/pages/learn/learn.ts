@@ -12,9 +12,24 @@ export class LearnPage {
   classApps: ClassApp[];
   constructor(public navCtrl: NavController) {
   this.classApps = [
-    {"_id": "1", "name": "Learn ClassApp","description":"First course to understand ClassApp","note":"Check this out","image": "", "tags":["ClassApp","basic"],
-                        "tips":[]},
-    {"_id": "2", "name": "Teaching with ClassApp","description":"Become a ClassApp teacher","note":"Check this out if you are a teacher","image": "","tags":["ClassApp","basic"],
+    {"_id": "1", "name": "Learn ClassApp!","description":"First course to understand ClassApp","note":"Check this out","image": "image1", "tags":["ClassApp","basic"],
+                        "tips":[  {  "_id" : "11",
+                                    "title": "title1",
+                                    "content": "content1",
+                                    "url": "string",
+                                    "type": "string"},
+                                    {  "_id" : "12",
+                                      "title": "title2",
+                                      "content": "content2",
+                                      "url": "string",
+                                      "type": "string"},
+                                  {  "_id" : "13",
+                                    "title": "title3",
+                                    "content": "content3",
+                                    "url": "string",
+                                    "type": "string"},
+                                ]},
+    {"_id": "2", "name": "Teaching with ClassApp","description":"Become a ClassApp teacher","note":"Check this out if you are a teacher","image": "image2","tags":["ClassApp","basic"],
       "tips":[]}
   ];
   }
