@@ -1,4 +1,6 @@
+
 page-item-detail {
+
   .item-profile {
     width: 100%;
     background-position: center center;
@@ -8,7 +10,28 @@ page-item-detail {
 
   .item-detail {
     width: 100%;
-    background: white;
     position: absolute;
+  }
+
+  .learn-tip {
+    box-shadow: 2px 2px 2px #007aff;
+    border-radius: 5px;
+    width: 90%;
+    margin: 2em;
+
+  }
+
+  .tip-title {
+    padding: 1em;
+    font-weight: bold;
+  }
+
+  .tip-content {
+    padding: 1em;
+  }
+
+  .tip-image {
+    margin-top: 1em;
+    padding: 1em;
   }
 }

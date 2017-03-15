@@ -21,7 +21,7 @@ export class LearnPage {
                                     {  "_id" : "12",
                                       "title": "title2",
                                       "content": "content2",
-                                      "url": "string",
+                                      "url": "/images/screenshot.png",
                                       "type": "string"},
                                   {  "_id" : "13",
                                     "title": "title3",

@@ -24387,6 +24387,10 @@ ion-navbar.toolbar {
   }
 }
 
+page-learn {
+  background-color: #007aff;
+}
+
 page-item-detail .item-profile {
   width: 100%;
   background-position: center center;
@@ -24396,6 +24400,26 @@ page-item-detail .item-profile {
 
 page-item-detail .item-detail {
   width: 100%;
-  background: white;
   position: absolute;
+}
+
+page-item-detail .learn-tip {
+  box-shadow: 2px 2px 2px #007aff;
+  border-radius: 5px;
+  width: 90%;
+  margin: 2em;
+}
+
+page-item-detail .tip-title {
+  padding: 1em;
+  font-weight: bold;
+}
+
+page-item-detail .tip-content {
+  padding: 1em;
+}
+
+page-item-detail .tip-image {
+  margin-top: 1em;
+  padding: 1em;
 }
