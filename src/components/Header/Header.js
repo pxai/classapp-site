@@ -7,8 +7,7 @@ class Header extends Component {
             <div className="header">
                 <div className="header-title">classapp</div>
                 <div className="header-text">
-                    Aprende 😄, enseña 🎁 y comparte ❤️ en cualquier momento 📱 y en cualquier lugar 🌐,
-                    en un formato 💬 bien conocido.
+                    Aprende 😄, enseña 🎁 y comparte ❤️ 
                 </div>
             </div>
         );
