@@ -8,6 +8,9 @@
     "material-ui": "^0.19.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "i18next": "9.0.1",
+    "i18next-browser-languagedetector": "2.0.0",
+    "i18next-xhr-backend": "1.4.3",
     "react-i18next": "^6.0.2",
     "react-scripts": "1.0.14",
     "yarn": "^1.1.0"

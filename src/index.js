@@ -6,6 +6,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import './i18n';
 
 const ThemedApp = () => (
     <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
