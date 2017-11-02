@@ -40,7 +40,7 @@ class App extends Component {
             <SubHeader />
         <p className="App-intro">
             {detectBrowserLanguage()}
-            Coming soon
+            {t('coming-soon')}
         </p>
 
       </div>

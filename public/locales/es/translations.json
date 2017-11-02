@@ -1,6 +1,7 @@
 {
     "title": "Welcome to ClassApp",
-    "subtitle": "",
+    "subtitle": "Aprende 😄, enseña 🎁 y comparte ❤️",
+    "coming-soon": "En breve...",
     "description": {
       "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
       "part2": "Switch language between english and german using buttons above."
