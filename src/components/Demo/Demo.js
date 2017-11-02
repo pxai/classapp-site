@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './Demo.css';
+import { I18n, Trans } from 'react-i18next';
 
 class Demo extends Component {
     render() {
         return (
+            <I18n>
+            {
+              (t, { i18n }) => (
             <div className="Demo">
                 <div className="page">
                     <div className="marvel-device nexus5">
@@ -106,6 +110,9 @@ class Demo extends Component {
                 </div>
 
             </div>
+        )
+        }
+      </I18n>
         );
     }
 }

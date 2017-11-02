@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { I18n, Trans } from 'react-i18next';
 
 class Header extends Component {
     render() {
         return (
+            <I18n>
+            {
+              (t, { i18n }) => (
             <div className="header">
                 <div className="header-title">classapp</div>
                 <div className="header-text">
-                    Aprende 😄, enseña 🎁 y comparte ❤️ 
+                {t('subtitle')} 
                 </div>
             </div>
+        )
+        }
+      </I18n>
         );
     }
 }

@@ -3,6 +3,7 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import FlatButton from 'material-ui/FlatButton'
 import './SubHeader.css';
 
+
 class SubHeader extends Component {
     render() {
         return (
