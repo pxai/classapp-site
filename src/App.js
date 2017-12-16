@@ -29,13 +29,14 @@ class App extends Component {
     }
 
   render() {
+    //<AppBar style={this.state.appbar} titleStyle={titleStyle} title="classapp" />
+    
+
     return (
         <I18n>
         {
           (t, { i18n }) => (
       <div className="App">
-          <AppBar style={this.state.appbar} titleStyle={titleStyle} title="classapp" />
-            <Header />
           <Demo classTitle="ClassApp Demo" />
             <SubHeader />
         <p className="App-intro">
