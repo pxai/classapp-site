@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Demo.css';
-import { I18n, Trans } from 'react-i18next';
+import { I18n } from 'react-i18next';
 
 class UserBar extends Component {
     render() {

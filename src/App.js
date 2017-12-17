@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import detectBrowserLanguage from 'detect-browser-language'
 import './App.css';
-import { I18n, Trans } from 'react-i18next';
+import { I18n } from 'react-i18next';
 import Demo from './components/Demo/Demo';
 import Header from './components/Header/Header';
 import SubHeader from './components/SubHeader/SubHeader'
@@ -29,16 +29,16 @@ class App extends Component {
     }
 
   render() {
-    //<AppBar style={this.state.appbar} titleStyle={titleStyle} title="classapp" />
-    
-
     return (
         <I18n>
         {
           (t, { i18n }) => (
       <div className="App">
+          <AppBar style={this.state.appbar} titleStyle={titleStyle} title="classapp" />
+            <Header />
+                        <SubHeader />
           <Demo classTitle="ClassApp Demo" />
-            <SubHeader />
+
         <p className="App-intro">
             {detectBrowserLanguage()}
             {t('coming-soon')}

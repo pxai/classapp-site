@@ -390,12 +390,12 @@ body {
 /* Small Screens */
 
 @media (max-width: 768px) {
-    .marvel-device.nexus5 {
+    .marvel-device {
         border-radius: 0;
         flex: none;
         padding: 0;
         max-width: none;
-       /* overflow: hidden;*/
+        overflow: none;
         height: 100%;
         width: 100%;
     }
