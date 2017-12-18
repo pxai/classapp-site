@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App">
           <AppBar style={this.state.appbar} titleStyle={titleStyle} title="classapp" />
             <Header />
-                        <SubHeader />
+            <SubHeader />
           <Demo classTitle="ClassApp Demo" />
 
         <p className="App-intro">

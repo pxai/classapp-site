@@ -4,7 +4,6 @@
 
 html {
     box-sizing: border-box;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -15,11 +14,10 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 .page {
-    width: 100%;
+   width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -390,12 +388,15 @@ body {
 /* Small Screens */
 
 @media (max-width: 768px) {
+    .header {
+        display: none;
+    }
     .marvel-device {
         border-radius: 0;
         flex: none;
         padding: 0;
         max-width: none;
-        overflow: none;
+        overflow: 1;
         height: 100%;
         width: 100%;
     }
